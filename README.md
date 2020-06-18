@@ -16,7 +16,7 @@ for details.
 1. Include docassemble.blawx as a module in your interview.
 ```
 modules:
-  - docassemble.blawx
+  - docassemble.blawx.blawx3
 ```
 2. Create a object with the type Blawx in your interview.
 ```
