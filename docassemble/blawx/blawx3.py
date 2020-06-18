@@ -6,7 +6,7 @@
 from docassemble.base.core import DAObject, DAStaticFile
 from docassemble.base.functions import log, all_variables
 import requests
-from urllib3 import urlencode
+from urllib.parse import urlencode
 import json
 
 class Blawx(DAObject):
