@@ -50,7 +50,7 @@ class Blawx(DAObject):
     # Build the request
     payload = {'data': blawx_data, 'code': blawx_code}
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
-    url = 'http://app.blawx.com/cgi-bin/reasoner.php'
+    url = 'https://app.blawx.com/cgi-bin/reasoner.php'
     
     # Post the request
     r = requests.post(url,headers=headers,data=payload)
